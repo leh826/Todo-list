@@ -8,9 +8,9 @@ Uma lista de tarefas de gestão, web, que contém Campos que o usuário pode int
 
 As tecnologias utilizadas na construção do projeto foram:
 - React 
-- PostgREST para API de comunicação com Banco de dados
+- PostgREST como API de comunicação com Banco de dados
 - PostgSQL como Banco de dados relacional para armazenamento dos dados.
-- React Context para manejar os dados das tarefas entrem os componentes.
+- React Context para manenipular os dados das tarefas entrem os componentes.
 - Docker Compose para criar containers para postgres, postgrest e pgadmin, que rodam localmente.<br><br>
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react)
