@@ -24,13 +24,29 @@ As tecnologias utilizadas na construção do projeto foram:
 - Railway para hospedagem da API postgREST e para banco de dados.
 - Visual Studio.
 - Nestifly para hospedagem do site.<br><br>
-
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ## Tela Principal
 
 ## Como ter acesso?
- ```https://todo-list-leh826.netlify.app```
+ ```
+ https://todo-list-leh826.netlify.app
+```
 ## Instalação
-Passo 1: Clone o repositório em sua maquina com o link ``` git clone "https://github.com/leh826/Todo-list.git" ```<br>
-Passo 2: Entre no diretorio ```cd Todo-list```<br>
-Passo 3: Instale as dependências via terminal ```npm install```<br>
-Passo 4: Rode o projeto ```npm run dev```<br>
+Passo 1: Clone o repositório em sua maquina com o link 
+``` 
+git clone "https://github.com/leh826/Todo-list.git"
+```
+Passo 2: Entre no diretorio 
+```
+cd Todo-list
+```
+Passo 3: Instale as dependências via terminal ]
+```
+npm install
+```
+Passo 4: Rode o projeto
+```
+npm run dev
+```
