@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:'http://localhost:3000' ,
+    baseURL:'https://apitopostgres-production.up.railway.app/' ,
 });
-//'http://198.100.158.191:3000'
+//'http://localhost:3000'
 export const getTasks = async () => {
  return await api.get('/task?order=ordem_apresentacao');
 };
