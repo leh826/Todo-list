@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:'https://apitopostgres-production.up.railway.app/' ,
+    baseURL:'https://apitopostgres-production.up.railway.app' ,
 });
 //'http://localhost:3000'
 export const getTasks = async () => {
