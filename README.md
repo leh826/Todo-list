@@ -21,3 +21,9 @@ As tecnologias utilizadas na construção do projeto foram:
 ## Tela Principal
 
 ## Como ter acesso?
+ ``` https://todo-list-leh826.netlify.app/ ```
+## Instalação
+Passo 1: Clone o repositório em sua maquina com o link ``` git clone "https://github.com/leh826/Todo-list.git" ```<br>
+Passo 2: Entre no diretorio ```cd Todo-list```<br>
+Passo 3: Instale as dependências via terminal ```npm install```<br>
+Passo 4: Rode o projeto ```npm run dev```<br>
