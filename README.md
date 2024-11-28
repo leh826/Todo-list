@@ -28,7 +28,7 @@ As tecnologias utilizadas na construção do projeto foram:
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ## Tela Principal
-![tela_principal](https://github.com/user-attachments/assets/8619f47d-2b15-4671-8b0f-45fb642af479)
+![tela_principal](https://github.com/user-attachments/assets/1f1bd6f5-a471-4d09-aa2c-7b87ae606245)
 
 ## Como ter acesso?
  ```
