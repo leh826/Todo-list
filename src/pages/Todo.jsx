@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './TodoList.css';
-import TaskModal from '../componentes/TaskModal';
-import ModalUpdate from '../componentes/ModalUpdate';
-import TaskRow from '../componentes/ButtonDelete';
+import './Todo.css';
+import TaskModal from '../components/ModalAdd';
+import ModalUpdate from '../components/ModalUpdate';
+import TaskRow from '../components/ButtonDelete';
 import { FaEdit, FaArrowUp, FaArrowDown } from 'react-icons/fa';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -44,7 +44,7 @@ function TodoList() {
     return (
         <div className="to-do-list">
             <ToastContainer />
-            <h1>Lista de Tarefas</h1>
+            <h1>Sistema Gerenciador de Tarefas</h1>
             <div className="container">
                 <h3>Tarefas</h3>
                 <hr />
