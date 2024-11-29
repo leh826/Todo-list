@@ -234,37 +234,45 @@ export const TaskProvider = ({ children }) => {
     const handleMoveTaskUp = async (taskId) => {
         try {
             const taskIndex = tasks.findIndex((task) => task.id === taskId);
-            if (taskIndex > 0) {
+            // Verifica se a tarefa não é a primeira e não está trocando com a primeira
+            if (taskIndex > 0 && taskIndex < tasks.length && taskIndex != 1) {
                 const currentTask = tasks[taskIndex];
                 const previousTask = tasks[taskIndex - 1];
-
-                const currentTaskOrder = currentTask.ordem_apresentacao;
-                const previousTaskOrder = previousTask.ordem_apresentacao;
-
-                await updateTaskOrder(currentTask.id, previousTaskOrder);
-                await updateTaskOrder(previousTask.id, currentTaskOrder);
-                fetchTasks();
+    
+                // Verifica se a tarefa anterior não é a primeira
+                if (previousTask.id !== tasks[0].id) {
+                    const currentTaskOrder = currentTask.ordem_apresentacao;
+                    const previousTaskOrder = previousTask.ordem_apresentacao;
+    
+                    await updateTaskOrder(currentTask.id, previousTaskOrder);
+                    await updateTaskOrder(previousTask.id, currentTaskOrder);
+                    fetchTasks();
+                }
             }
         } catch (error) {
             console.error('Erro ao mover tarefa:', error);
             toast.error('Erro ao mover tarefa para cima');
         }
     };
-
+    
     const handleMoveTaskDown = async (taskId) => {
         try {
             const taskIndex = tasks.findIndex((task) => task.id === taskId);
-            if (taskIndex < tasks.length - 1) {
+            // Verifica se a tarefa não é a última e não está trocando com a última
+            if (taskIndex < tasks.length - 1 && taskIndex >= 0 && taskIndex != tasks.length - 2) {
                 const currentTask = tasks[taskIndex];
                 const nextTask = tasks[taskIndex + 1];
-
-                const currentTaskOrder = currentTask.ordem_apresentacao;
-                const nextTaskOrder = nextTask.ordem_apresentacao;
-
-                await updateTaskOrder(currentTask.id, nextTaskOrder);
-                await updateTaskOrder(nextTask.id, currentTaskOrder);
-
-                fetchTasks();
+    
+                // Verifica se a tarefa seguinte não é a última
+                if (nextTask.id !== tasks[tasks.length - 1].id) {
+                    const currentTaskOrder = currentTask.ordem_apresentacao;
+                    const nextTaskOrder = nextTask.ordem_apresentacao;
+    
+                    await updateTaskOrder(currentTask.id, nextTaskOrder);
+                    await updateTaskOrder(nextTask.id, currentTaskOrder);
+    
+                    fetchTasks();
+                }
             }
         } catch (error) {
             console.error('Erro ao mover tarefa:', error);
