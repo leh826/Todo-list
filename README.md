@@ -1,4 +1,4 @@
-<h1 align="center">Lista de Tarefas</h1>
+i<h1 align="center">Lista de Tarefas</h1>
 <p align="center"><i>Uma lista de tarefas web, focada em tarefas de gestão de software</i></p>
 
 ## Sobre esse projeto
@@ -28,6 +28,7 @@ As tecnologias utilizadas na construção do projeto foram:
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ## Tela Principal
+![tela_principal](https://github.com/user-attachments/assets/1f1bd6f5-a471-4d09-aa2c-7b87ae606245)
 
 ## Como ter acesso?
  ```
@@ -50,3 +51,5 @@ Passo 4: Rode o projeto
 ```
 npm run dev
 ```
+
+## Impressões e experiências com o projeto
