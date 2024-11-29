@@ -20,7 +20,7 @@ As tecnologias utilizadas na construção do projeto foram:
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ### Banco de Dados e API
 ![image](https://github.com/user-attachments/assets/35c7fd8a-6236-4c7f-9b9e-83bad1066e19)
-<div> O projeto também foi usado com experimento para que eu conhecesse o funcionamento da API PostgREST, que me deixou intrigada com sua tecnologia de gerar uma API automaticamente a partir das tabelas do postgreSQL do usuário, um projeto open source incrível e que atendeu as minhas expectativas e funcionou bem para o projeto. Um bonus foi eu não precisar instalar nada em minha máquina, apenas configurar containers e usar docker-compose para utilizar. Pode conferir as configurações dela em https://github.com/leh826/Compose-PostgREST</div>
+<div> O projeto também foi usado com experimento para que eu conhecesse o funcionamento da API PostgREST, que me deixou intrigada com sua tecnologia de gerar uma API automaticamente a partir das tabelas do postgreSQL do usuário, um projeto open source incrível e que atendeu as minhas expectativas e funcionou bem para o projeto. Um bonus foi eu não precisar instalar nada em minha máquina, apenas configurar containers e usar docker-compose para utilizar. As configurações dela podem ser conferidas em https://github.com/leh826/Compose-PostgREST</div>
 
 ## Ferramentas Utilizadas
 - Railway para hospedagem da API postgREST e para banco de dados.
@@ -60,5 +60,4 @@ npm run dev
 ## Impressões e experiências com o projeto
 Durante este projeto, adquiri experiência e coloquei em prática meus conhecimentos sobre React, Docker, APIs e deploy.<br>
 Habilidades: Coloquei em prática habilidades de back-end, como conexão com API, tratamento de erros e verificação de dados.<br>
-Dificuldades: Minha principal dificuldade foi implementar a funcionalidade de reordenação das tarefas, especialmente por ter estruturado o projeto em uma tabela e integrado com o servidor de dados, oq não estava familiriazado a realizar. Foi um processo demorado até conseguir desenvolver uma lógica funcional e eficiente.
-Estou contente com o resutado.
+Dificuldades: Minha principal dificuldade foi implementar a funcionalidade de reordenação das tarefas, especialmente por ter estruturado o projeto em uma tabela e integrado com o servidor de dados, o que não estava familiriazada a realizar. Foi um processo demorado até conseguir desenvolver uma lógica funcional e eficiente, mas estou contente com o resutado.
