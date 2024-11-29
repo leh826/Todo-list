@@ -1,4 +1,4 @@
-<h1 align="center">Lista de Tarefas</h1>
+i<h1 align="center">Lista de Tarefas</h1>
 <p align="center"><i>Uma lista de tarefas web, focada em tarefas de gestão de software</i></p>
 
 ## Sobre esse projeto
@@ -51,3 +51,5 @@ Passo 4: Rode o projeto
 ```
 npm run dev
 ```
+
+## Impressões e experiências com o projeto
