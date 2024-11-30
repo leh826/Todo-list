@@ -2,10 +2,13 @@
 <p align="center"><i>Uma lista de tarefas web, focada em tarefas de gestão de software</i></p>
 
 ## Sobre esse projeto
-As tarefas contém os campos a seguir, que são obrigatórios e não nulos, além disso é possível editar cada um:<br>
+As tarefas contém os campos a seguir, que são obrigatórios e não nulos:<br>
+- ID<br>
 - Nome<br>
 - Custo<br>
 - Data limite<br>
+- Ordem de presentação<br>
+<p>Sendo os campos nome, custo e data limite editáveis pelo usuário.</p>
 
 ## Tecnológias Utilizadas
 As tecnologias utilizadas na construção do projeto foram:
@@ -24,7 +27,7 @@ As tecnologias utilizadas na construção do projeto foram:
 
 ## Ferramentas Utilizadas
 - Railway para hospedagem da API postgREST e para banco de dados.
-- Visual Studio.
+- Visual Studio como IDE de desenvolvimento.
 - Nestifly para hospedagem do site.<br><br>
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
