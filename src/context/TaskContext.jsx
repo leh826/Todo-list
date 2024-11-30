@@ -98,6 +98,8 @@ export const TaskProvider = ({ children }) => {
                     await updateTaskOrder(previousTask.id, currentTaskOrder);
                     fetchTasks();
                 }
+            }else{
+                toast.error('Não é possível mover a tarefa para a primeira posição');
             }
         } catch (error) {
             console.error('Erro ao mover tarefa:', error);
@@ -123,6 +125,8 @@ export const TaskProvider = ({ children }) => {
     
                     fetchTasks();
                 }
+            }else{
+                toast.error('Não é possível mover a tarefa para a última posição');
             }
         } catch (error) {
             console.error('Erro ao mover tarefa:', error);
